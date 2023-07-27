@@ -1,0 +1,192 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url(Font/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: OpenSansBold;
+    src: url(Font/OpenSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: PopinsBold;
+    src: url(Font/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: Popins;
+    src: url(Font/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: RobotoBold;
+    src: url(Font/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(Font/Roboto-Regular.ttf);
+}
+
+
+/* HEADER */
+.container1{
+    background-color: #106EEA;
+}
+
+.container2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.contato{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    padding-left: 200px;
+    padding-right: 900px;
+}
+
+.texto{
+    color: white;
+    font:16px 'OpenSans', sans-serif;
+}
+
+.nomeLogo{
+    font: 700 45px 'PopinsBold', sans-serif;
+    margin-left: 200px;
+}
+
+.menu{
+    margin-right: 180px;
+}
+
+.item{
+    font: 400 22px 'OpenSans', sans-serif;
+    margin-left: 45px;
+    color: black;
+}
+/* FIM DO HEADER */
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 150px;
+    flex-wrap: wrap;
+}
+
+.nomeLogo2{
+    font: 700 60px 'PopinsBold', sans-serif;
+}
+
+.bannerTexto{
+    font: 400 40px 'Popins', sans-serif;
+}
+
+.escrita{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -330px;
+    margin-left: 600px;
+}
+
+.primeiraImg{
+    margin-bottom: 400px;
+}
+
+.titulos{
+    font: 700 20px 'RobotoBold', sans-serif;
+    display: flex;
+}
+
+.tituloSobre{
+    padding-left: 8px;
+    color: #106EEA;
+}
+
+.lorem{
+    text-align: justify;
+    font: 400 20px 'OpenSans', sans-serif;
+    padding-top: 12px;
+    width: 630px;
+}
+
+.conteudo{
+    display: flex;
+}
+
+.junto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 45px;
+    padding-left: 40px;
+}
+
+.sobreNos img{
+    margin-left: 120px;
+    width: 400px;
+    margin-top: -90px;
+}
+
+.caixas{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin-top: 110px;
+}
+
+.caixas .imagem img{
+    width: 60px;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.caixa{
+    border: 1px solid #8CA9CE;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px 25px;
+    width: 250px;
+    background-color: #F1F6FE;
+    height: 220px;
+}
+
+.numero{
+    font: 400 33px 'OpenSansBold', sans-serif;
+}
+
+.textoCaixa{
+    font: 400 20px 'Roboto', sans-serif ;
+}
+
+.caixa .imagem img{
+    width: 80px;
+}
+
+.servicos{
+    margin-top: 150px;
+}
