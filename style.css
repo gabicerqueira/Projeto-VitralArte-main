@@ -249,10 +249,13 @@ img{
 
 .textoNegrito{
     font: 700 24px 'PopinsBold', sans-serif;
+    width: 170px;
+    margin-top: 20px;
 }
 
 .textoRegular{
-    font: 400 19px 'Roboto', sans-serif;
+    font: 400 16px 'Roboto', sans-serif;
+    width: 190px;
 }
 
 .caixasEquipe{
@@ -267,9 +270,9 @@ img{
     border: 1px solid black;
     border-radius: 7px;
     text-align: center;
-    width: 203px;
+    width: 220px;
     background-color: #ffffff;
-    height: 500px;
+    height: 580px;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -278,20 +281,126 @@ img{
 }
 
 .caixaEquipe img{
-    width:200px;
-    margin-top: 64px;
+    width: 218px;
+    margin-top: -18px;
     align-items: center;
 }
 
 .mulheres img{
-    width:201px;
-    margin-top: 64px;
+    width: 218px;
+    margin-top: -20px;
     align-items: center;
-    margin-left: 0px;
+    margin-left: 1px;
 }
 
 .mulheres1 img{
-    width:200px;
-    margin-top: 62px;
+    width: 218px;
+    margin-top: -20px;
     align-items: center;
+}
+
+.loremEquipe{
+    font: 400 22px 'OpenSans', sans-serif;
+    margin-top: 60px;
+    padding: 0 110px;
+}
+
+.linha2{
+    margin-top: 60px;
+    background-color: #1150A3;
+    height: 3px;
+}
+
+.contatoAntes{
+    margin-top: 150px;
+}
+
+.conteudoAntes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.caixasContato{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin-top: 80px;
+    margin-left: 115px;
+}
+
+.caixaContato{
+    border: 1px solid #8CA9CE;
+    border-radius: 7px;
+    text-align: center;
+    width: 280px;
+    background-color: #ffffff;
+    height: 310px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 0 25px;
+    flex-direction: column;
+}
+
+.negritoContato{
+    font: 400 20px 'RobotoBold', sans-serif;
+}
+
+.regularContato{
+    padding-top: 20px;
+    font: 400 20px 'Roboto', sans-serif;
+}
+
+.contatoDepois{
+    display: flex;
+}
+
+input{
+    background-color: #E5E5E5;
+    width: 220px;
+    height: 40px;
+    border-radius: 9px;
+    margin-top: 80px;
+    margin-right: 80px;
+}
+
+::placeholder{
+    font: 300 20px'Roboto', sans-serif;
+    padding-left: 12px;
+    color: #C1C1C1;
+}
+
+.assunto{
+    background-color: #E5E5E5;
+    width: 525px;
+    height: 40px;
+    border-radius: 9px;
+    margin-top: 30px;
+    margin-right: 80px;
+}
+
+.mensagem{
+    background-color: #E5E5E5;
+    width: 525px;
+    height: 120px;
+    border-radius: 9px;
+    margin-top: 30px;
+    margin-right: 80px;
+}
+
+button{
+    background-color: #106EEA;
+    border-radius: 7px;
+    width: 200px;
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 155px;
+}
+
+.enviar{
+    font: 400 18px 'Roboto', sans-serif;
+    color: white;
 }
