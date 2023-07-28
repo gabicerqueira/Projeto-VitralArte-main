@@ -44,6 +44,11 @@ img{
     src: url(Font/Roboto-Regular.ttf);
 }
 
+@font-face {
+    font-family: RobotoMedium;
+    src: url(Font/RobotoMono-SemiBold.ttf);
+}
+
 
 /* HEADER */
 .container1{
@@ -146,7 +151,7 @@ img{
 }
 
 .sobreNos img{
-    margin-left: 120px;
+    margin-left: 90px;
     width: 400px;
     margin-top: -90px;
 }
@@ -183,10 +188,110 @@ img{
     font: 400 20px 'Roboto', sans-serif ;
 }
 
+.textoCaixaC{
+    font: 400 22px 'RobotoBold', sans-serif ;
+}
+
 .caixa .imagem img{
     width: 80px;
 }
 
-.servicos{
+.servicos,
+.equipe{
     margin-top: 150px;
+}
+
+.conteudoServicos,
+.conteudoEquipe{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.lorem2{
+    font: 400 20px 'OpenSans', sans-serif;
+    padding-top: 12px;
+    padding: 12px 240px 0px;
+    text-align: center;
+}
+
+.caixasCinza{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin-top: 70px;
+}
+
+.caixaCinza{
+    border: 1px solid #8CA9CE;
+    border-radius: 10px;
+    text-align: center;
+    width: 250px;
+    background-color: #ffffff;
+    height: 180px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 0 25px;
+}
+
+.segundo{
+    padding: 0 230px;
+}
+
+.linha{
+    background-color: #1150A3;
+    height: 2px;
+    margin-top: 120px
+}
+
+.textoNegrito{
+    font: 700 24px 'PopinsBold', sans-serif;
+}
+
+.textoRegular{
+    font: 400 19px 'Roboto', sans-serif;
+}
+
+.caixasEquipe{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin-top: 70px;
+}
+
+.caixaEquipe{
+    border: 1px solid black;
+    border-radius: 7px;
+    text-align: center;
+    width: 203px;
+    background-color: #ffffff;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 0 25px;
+    flex-direction: column;
+}
+
+.caixaEquipe img{
+    width:200px;
+    margin-top: 64px;
+    align-items: center;
+}
+
+.mulheres img{
+    width:201px;
+    margin-top: 64px;
+    align-items: center;
+    margin-left: 0px;
+}
+
+.mulheres1 img{
+    width:200px;
+    margin-top: 62px;
+    align-items: center;
 }
