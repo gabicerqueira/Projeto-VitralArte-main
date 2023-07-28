@@ -51,6 +51,16 @@ img{
 
 
 /* HEADER */
+#header{
+    position: fixed;
+    margin: 0;
+    width: 100%;
+}
+
+#main{
+    padding-top: 120px;
+}
+
 .container1{
     background-color: #106EEA;
 }
@@ -59,7 +69,8 @@ img{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 20px 0;
+    padding: 20px 0;
+    background-color: white;
 }
 
 .contato{
@@ -282,27 +293,27 @@ img{
 
 .caixaEquipe img{
     width: 218px;
-    margin-top: -18px;
+    margin-top: -20px;
     align-items: center;
 }
 
 .mulheres img{
     width: 218px;
-    margin-top: -20px;
+    margin-top: -22px;
     align-items: center;
-    margin-left: 1px;
+    margin-left: 0px;
 }
 
 .mulheres1 img{
     width: 218px;
-    margin-top: -20px;
+    margin-top: -22px;
     align-items: center;
 }
 
 .loremEquipe{
     font: 400 22px 'OpenSans', sans-serif;
     margin-top: 60px;
-    padding: 0 110px;
+    padding: 0 125px;
 }
 
 .linha2{
@@ -361,7 +372,8 @@ img{
 input{
     background-color: #E5E5E5;
     width: 220px;
-    height: 40px;
+    padding: 10px 10px;
+    /* height: 40px; */
     border-radius: 9px;
     margin-top: 80px;
     margin-right: 80px;
@@ -369,7 +381,6 @@ input{
 
 ::placeholder{
     font: 300 20px'Roboto', sans-serif;
-    padding-left: 12px;
     color: #C1C1C1;
 }
 
@@ -403,4 +414,52 @@ button{
 .enviar{
     font: 400 18px 'Roboto', sans-serif;
     color: white;
+}
+
+#footer{
+    margin-top: 100px;
+    background-color: #1150A3;
+}
+
+.itens{
+    font: 500 23px 'OpenSans', sans-serif;
+    color: white;
+    padding: 6px 0;
+}
+
+#footer .menu{
+    margin-left: 150px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sociais{
+    font: 500 28px 'OpenSans', sans-serif;
+    color: white;
+}
+
+.fundo{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.redes{
+    margin-top: 110px;
+    margin-left: 290px;
+}
+
+.imagens img{
+    width: 40px;
+    margin-right: 8px;
+}
+
+.imagens{
+    margin-top: 18px;
+}
+
+html{
+    scroll-behavior: smooth;
 }
