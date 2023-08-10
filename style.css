@@ -464,3 +464,7 @@ button{
 html{
     scroll-behavior: smooth;
 }
+
+.menu-aparecer{
+    display: none;
+}
